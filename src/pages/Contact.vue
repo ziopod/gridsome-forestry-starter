@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="container">
-
+      <Notification />
       <div class="contact-header">
         <h1 class="contact-title">Say hi!</h1>
         <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
@@ -34,7 +34,12 @@
 </template>
 
 <script>
-export default {}
+import Notification from '@/components/Notification'
+export default {
+  components: {
+    Notification
+  }
+}
 </script>
 
 <style scoped>
@@ -96,4 +101,3 @@ textarea {
   border: 1px solid var(--color-base-1);
 }
 </style>
-
