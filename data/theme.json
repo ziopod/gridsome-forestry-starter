@@ -7,6 +7,11 @@
   "hero_subtitle": "",
   "notifications": [
     {
+      "id": "10",
+      "message": "Une autre message",
+      "color": "is-warning"
+    },
+    {
       "id": "12",
       "message": "Exemple de message",
       "color": "is-info"
