@@ -4,5 +4,12 @@
   "site_name": "Site en démo",
   "site_description": "Faire le tour de la Jamstack",
   "hero_title": ":D",
-  "hero_subtitle": ""
+  "hero_subtitle": "",
+  "notifications": [
+    {
+      "id": "12",
+      "message": "Exemple de message",
+      "color": "is-info"
+    }
+  ]
 }
